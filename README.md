@@ -7,3 +7,8 @@ A pasta Package tem o ficheiro analise.py onde estão implementadas as funções
 A pasta Package também tem o ficheiro pesquisa.py que tem implementado 4 funções: pesquisa_sequencial, pesquisa_sequncial_recursiva, pesquisa_binaria e pesquisa_binaria_recursiva
 
 Por final temos um ficheiro Jupyter Notebook onde está a analise dos dados.
+
+Video da utlização das funções no Jupyter Notebook:
+
+https://github.com/NunoSantinh0s/Projeto-Algoritmos-de-Pesquisa/assets/145770014/fffbd036-9ebf-4a35-ab0c-c4de5d66f915
+
