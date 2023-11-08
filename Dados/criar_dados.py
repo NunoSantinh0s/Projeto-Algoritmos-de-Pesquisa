@@ -11,7 +11,7 @@ def criar_ficheiro_ordenado(nome_ficheiro, quantidade, valor_max):
         numeros = [random.randint(0, valor_max) for _ in range(quantidade)]
         numeros.sort()
         for numero in numeros:
-            ficheiro.write(str(numeros) + '\n')
+            ficheiro.write(str(numero) + '\n')
 
 quantidades = [100, 1000, 10000, 100000]
 valor_max = 1000000
