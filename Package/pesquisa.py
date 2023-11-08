@@ -17,11 +17,9 @@ def pesquisa_sequencial_recursiva(lista, n):
 
 def pesquisa_binaria(lista, item):
     with open(lista, 'r') as ficheiro:
-        linhas = ficheiro.readlines()
-        inteiros = [int(numero) for linha in linhas for numero in linha.strip().replace('[', '').replace(']', '').split(',')]
-
-
-    
+        numeros = ficheiro.readlines()
+        inteiros = [int(numero) for numero in numeros]
+        
     primeiro = 0
     ultimo = len(inteiros) - 1
 
@@ -40,8 +38,8 @@ def pesquisa_binaria(lista, item):
 
 def pesquisa_binaria_recursiva(lista, item, inicio=0, fim=None):
     with open(lista, 'r') as ficheiro:
-        linhas = ficheiro.readlines()
-        inteiros = [int(numero) for linha in linhas for numero in linha.strip().replace('[', '').replace(']', '').split(',')]
+       numeros = ficheiro.readlines()
+        inteiros = [int(numero) for numero in numeros]
     
     if fim is None:
         fim = len(lista)
